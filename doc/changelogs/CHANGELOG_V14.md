@@ -11,6 +11,7 @@
 </tr>
 <tr>
 <td valign="top">
+<a href="#14.15.5">14.15.5</a><br/>
 <a href="#14.15.4">14.15.4</a><br/>
 <a href="#14.15.3">14.15.3</a><br/>
 <a href="#14.15.2">14.15.2</a><br/>
@@ -54,6 +55,22 @@
   * [0.10.x](CHANGELOG_V010.md)
   * [io.js](CHANGELOG_IOJS.md)
   * [Archive](CHANGELOG_ARCHIVE.md)
+
+<a id="14.15.5"></a>
+## 2021-01-27, Version 14.15.5 'Fermium' (LTS), @BethGriggs
+
+### Notable Changes
+
+* **deps**: upgrade npm to 6.14.11 (Darcy Clarke) [#36838](https://github.com/nodejs/node/pull/36838)
+* **stream,zlib**: do not use \_stream\_\* anymore (Matteo Collina) [#36618](https://github.com/nodejs/node/pull/36618)
+
+### Commits
+
+* [[`5b5bed96c2`](https://github.com/nodejs/node/commit/5b5bed96c2)] - **deps**: upgrade npm to 6.14.11 (Darcy Clarke) [#36838](https://github.com/nodejs/node/pull/36838)
+* [[`559318719e`](https://github.com/nodejs/node/commit/559318719e)] - **http**: don't cork .end when not needed (Dimitris Halatsis) [#36633](https://github.com/nodejs/node/pull/36633)
+* [[`15a16cdcaa`](https://github.com/nodejs/node/commit/15a16cdcaa)] - **stream**: accept iterable as a valid first argument (ZiJian Liu) [#36479](https://github.com/nodejs/node/pull/36479)
+* [[`98f61550f1`](https://github.com/nodejs/node/commit/98f61550f1)] - **stream,zlib**: do not use \_stream\_\* anymore (Matteo Collina) [#36618](https://github.com/nodejs/node/pull/36618)
+* [[`f002f236bb`](https://github.com/nodejs/node/commit/f002f236bb)] - **test**: http complete response after socket double end (Dimitris Halatsis) [#36633](https://github.com/nodejs/node/pull/36633)
 
 <a id="14.15.4"></a>
 ## 2021-01-04, Version 14.15.4 'Fermium' (LTS), @BethGriggs
